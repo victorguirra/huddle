@@ -8,4 +8,9 @@ export default createGlobalStyle`
 
         font-family:'Poppins', sans-serif;
     }
+
+    button {
+        cursor:pointer;
+        outline:none;
+    }
 `;
