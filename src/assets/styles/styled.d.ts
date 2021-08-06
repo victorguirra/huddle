@@ -3,7 +3,7 @@ import 'styled-components';
 declare module 'styled-components' {
     export interface DefaultTheme {
         colors: {
-            white: '#FFF',
+            white: string;
             black: string;
 
             pink: string;
