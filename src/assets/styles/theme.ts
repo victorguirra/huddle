@@ -8,5 +8,6 @@ export const theme = {
         red: '#FF4242',
         darkCyan: '#00252E',
         paleBlue: '#F5FaFF',
+        gray: '#A3A8B2'
     }
 }
