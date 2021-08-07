@@ -1,6 +1,8 @@
-import { Container, Title, Description } from './styles';
+import { Container, Title, Description, Image } from './styles';
 
 import Button from '../../../components/Button';
+
+import illustrationImg from '../../../assets/images/illustrations/screen-mockups.svg';
 
 export default function Hero() {
     return(
@@ -16,6 +18,8 @@ export default function Hero() {
             </Description>
 
             <Button>Get Started For Free</Button>
+
+            <Image src={ illustrationImg } alt="Screen Mockups" />
         </Container>
     )
 }
