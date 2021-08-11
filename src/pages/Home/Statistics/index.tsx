@@ -1,5 +1,6 @@
-import { Wrapper, Container, Card } from './styles';
+import { Wrapper, Container, Card, BackgroundImage } from './styles';
 
+import bgDesktopImg from '../../../assets/images/background/desktop/section-top-desktop-1.svg';
 import communitiesIcon from '../../../assets/images/icons/communities.svg';
 import messagessIcon from '../../../assets/images/icons/messages.svg';
 
@@ -19,6 +20,8 @@ export default function Statistics() {
                     <span>Messages Sent</span>
                 </Card>
             </Container>
+
+            <BackgroundImage src={ bgDesktopImg } alt="Image" />
         </Wrapper>
     )
 }

@@ -6,6 +6,7 @@ export const Wrapper = styled.div`
     margin-top:10rem;
 
     display:flex;
+    flex-direction:column;
     align-items:center;
     justify-content:center;
 
@@ -29,4 +30,9 @@ export const Card = styled.div`
         color:${({ theme }) => theme.colors.gray };
         font-size:1.2rem;
     }
+`;
+
+export const BackgroundImage = styled.img`
+    width:100%;
+    margin-top:12rem;
 `;
