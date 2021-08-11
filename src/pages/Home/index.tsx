@@ -7,6 +7,7 @@ import GrowTogether from './GrowTogether';
 import FlowingConversations from './FlowingConversations';
 import YourUsers from './YourUsers';
 import Ready from './Ready';
+import Footer from './Footer';
 
 export default function Home() {
     return(
@@ -18,6 +19,7 @@ export default function Home() {
             <FlowingConversations />
             <YourUsers />
             <Ready />
+            <Footer />
         </Container>
     )
 }
