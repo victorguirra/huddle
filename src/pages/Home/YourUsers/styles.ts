@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Wrapper = styled.div`
     margin-top:26rem;
     background-color:${({ theme }) => theme.colors.paleBlue };
+    padding-bottom:3rem;
 `;
 
 export const BackgroundImg = styled.img`
