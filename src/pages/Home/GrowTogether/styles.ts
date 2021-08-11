@@ -2,7 +2,10 @@ import styled from 'styled-components';
 
 export const Wrapper = styled.div`
     background-color:${({ theme }) => theme.colors.paleBlue };
+    position:relative;
+`;
 
+export const Content = styled.div`
     padding:0 10rem;
 
     display:flex;
@@ -19,4 +22,9 @@ export const Container = styled.div`
 export const Image = styled.img`
     width:30%;
     max-width:48%;
+`;
+
+export const BackgroundImage = styled.img`
+    width:100%;
+    position:absolute;
 `;
