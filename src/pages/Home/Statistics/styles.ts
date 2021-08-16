@@ -8,9 +8,7 @@ export const Wrapper = styled.div`
     display:flex;
     flex-direction:column;
     align-items:center;
-    justify-content:center;
-
- 
+    justify-content:center; 
 `;
 
 export const Container = styled.div`
@@ -19,6 +17,10 @@ export const Container = styled.div`
     display:flex;
     align-items:center;
     justify-content:space-between;
+
+    @media(max-width:1440px) {
+        flex-direction:column;
+    }
 `;
 
 export const Card = styled.div`
@@ -29,6 +31,12 @@ export const Card = styled.div`
     span {
         color:${({ theme }) => theme.colors.gray };
         font-size:1.2rem;
+    }
+
+    @media(max-width:1440px) {
+        &:not(:first-of-type){
+            margin-top:7rem
+        };
     }
 `;
 
