@@ -13,4 +13,20 @@ export const Container = styled.header`
         width:11rem;
         height:3rem;
     }
+
+    @media(max-width:1440px) {
+        padding:1rem;
+
+        > img {
+            width:8rem;
+        }
+
+        > button {
+            width:8rem;
+            height:3rem;
+
+            font-size:.8rem;
+        }
+
+    }
 `;
