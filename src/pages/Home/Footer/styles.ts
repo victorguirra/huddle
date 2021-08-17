@@ -10,6 +10,10 @@ export const BackgroundImage = styled.img`
     width:100%;
     position:absolute;
     top:-13rem;
+
+    @media(max-width:1440px) {
+        top:0;
+    }
 `;
 
 export const Container = styled.div`    
