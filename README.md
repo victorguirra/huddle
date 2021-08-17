@@ -43,3 +43,16 @@
 </div>
 
 ## :rocket: Technologies
+
+- ReactJS
+- Typescript
+- Styled Components
+- VS Code with EditorConfid and ESLint
+
+## :memo: License
+
+This project is under the MIT license. See the LICENSE for more information.
+
+---
+
+Made by Victor Guirra 👋 [Say hello to me!](https://www.linkedin.com/in/victorguirra/)
