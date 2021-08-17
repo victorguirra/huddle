@@ -21,4 +21,16 @@ export const Container = styled.div`
     button {
         width:20rem;
     }
+
+    @media(max-width:1440px) {
+        h1 {
+            text-align:center;
+            font-size:1.6rem;
+        }
+
+        button {
+            width:16rem;
+            height:3.4rem;
+        }
+    }
 `;
