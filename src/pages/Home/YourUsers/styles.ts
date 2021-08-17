@@ -4,6 +4,10 @@ export const Wrapper = styled.div`
     margin-top:26rem;
     background-color:${({ theme }) => theme.colors.paleBlue };
     padding-bottom:3rem;
+
+    @media(max-width:1440px) {
+        margin-top:10rem;
+    }
 `;
 
 export const BackgroundImg = styled.img`
