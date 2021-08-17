@@ -37,7 +37,7 @@
 
 <div align="center">
     <h3>Demo on Vercel</h3>
-    <a href="" target="blank">
+    <a href="https://huddle-bay.vercel.app/" target="blank">
         <img src="./src/assets/images/logo_box.svg" />
     </a>
 </div>
