@@ -16,21 +16,49 @@ export const BackgroundImg = styled.img`
 `;
 
 export const Container = styled.div`
-    margin-top:3rem;
+    margin-top:5rem;
     padding:0 10rem;
 
     display:flex;
     align-items:center;
     justify-content:space-around;
+
+    @media(max-width:1440px) {
+        flex-direction:column-reverse;
+        padding:0 1.2rem;
+    }
 `;
 
 export const Content = styled.div`
     p {
         margin-top:2rem;
     }
+
+    @media(max-width:1440px) {
+        h1 {
+            text-align:center;
+            margin-top:5rem;
+        }
+
+        p {
+            font-size:.85rem;
+            text-align:center;
+            
+            margin-bottom:4rem;
+
+            br {
+                display:none;
+            }
+        }
+    }
 `;
 
 export const Image = styled.img`
     width:30%;
     max-width:48%;
+
+    @media(max-width:1440px) {
+        width:100%;
+        max-width:90%;
+    }
 `
