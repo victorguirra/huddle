@@ -4,6 +4,10 @@ export const Wrapper = styled.footer`
     background-color:${({ theme }) => theme.colors.darkCyan };
     position:relative;
     margin-top:29rem;
+
+    @media(max-width:1440px) {
+        margin-top:12rem;
+    }
 `;
 
 export const BackgroundImage = styled.img`
@@ -45,6 +49,22 @@ export const InfoContainer = styled.div`
         span {
             color:${({ theme }) => theme.colors.white };
             margin-left:1.2rem;
+        }
+    }
+
+    @media(max-width:1440px) {
+        margin-top:8em;
+
+        > img {
+            width:12rem;
+        }
+
+        p {
+            font-size:.85rem;
+
+            br {
+                display:none;
+            }
         }
     }
 `;
